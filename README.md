@@ -1,3 +1,19 @@
+> ## 🇧🇷 Claude-Mem: memória para o seu agente de IA
+>
+> **Cópia mantida pela [Exos Marketing](https://github.com/Exos-Marketing).** Projeto criado por [thedotmack](https://github.com/thedotmack/claude-mem), licença Apache 2.0, **sem nenhuma alteração no código**. Para a versão mais recente, use sempre o [repositório original](https://github.com/thedotmack/claude-mem).
+>
+> **O que faz:** toda sessão nova do seu agente (Claude Code, Codex, Cursor e mais de 10 outros) começa do zero. O Claude-Mem coloca um segundo agente anotando o que acontece enquanto você trabalha e, na sessão seguinte, o seu agente já começa sabendo o que foi feito. A memória fica na sua máquina (`~/.claude-mem`). O que você colocar entre `<private>` e `</private>` nunca é salvo.
+>
+> **Instalação em 1 minuto** (precisa do Node.js 20 ou mais novo):
+> ```bash
+> npx claude-mem install
+> ```
+> Ou, dentro do Claude Code: `/plugin marketplace add thedotmack/claude-mem` e depois `/plugin install claude-mem`. Reinicie o Claude Code e pronto.
+>
+> **Custos, com honestidade:** o projeto é gratuito e de código aberto. Por padrão, a memória usa o seu próprio plano da Anthropic (ou uma chave sua do OpenRouter ou do Gemini). No meio da instalação aparece a opção de um serviço pago do autor, o "claude-mem observer", com 30 dias grátis e cartão no cadastro. **Ele é opcional:** para não usar, escolha o seu próprio plano/chave quando o instalador perguntar. A coleta anônima de uso vem ligada; para desligar: `npx claude-mem telemetry disable`.
+
+---
+
 <h1 align="center">
   <br>
   <a href="https://github.com/thedotmack/claude-mem">
